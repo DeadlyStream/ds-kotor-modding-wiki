@@ -3,6 +3,6 @@
 </p>
 
 
-Welcome to the KOTOR Modding Wiki, a repository for various information and tutorials pertaining to creating mods for Knights of the Old Republic.
+Welcome to the Deadly Stream KOTOR Modding Wiki, a repository for various information and tutorials pertaining to creating mods for Knights of the Old Republic.
 
 Please check the categories in the top navigation bar to find what you are looking for.

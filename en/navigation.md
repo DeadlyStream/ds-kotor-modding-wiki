@@ -11,7 +11,7 @@
   -- (Read: http://dynalon.github.io/mdwiki/#!customizing.md#Theme_chooser)
   -->
 
-[gimmick:theme](spacelab)
+[gimmick:theme](slate)
 
 
 <!--
@@ -44,23 +44,24 @@
   * [Filesystem](pages/concepts-filesystem.md)
   * [Best Practice](pages/concepts-best-practice.md)
 
-[File Formats]()
+[File Formats](pages/formats_overview.md)
 
-  * [Overview](pages/formats_overview.md)
-  - - - -
-  * # Misc. Formats
+
+[File Formats - Misc]()
   * [2DA](pages/formats-2da.md)
   * [BIK](pages/formats-bik.md)
   * [LIP](pages/formats-lip.md)
   * [TLK](pages/formats-tlk.md)
-  - - - -
-  * # Image Formats
+
+
+[File Formats - Image]()
   * [DDS](pages/formats-dds.md)
   * [TGA](pages/formats-tga.md)
   * [TPC](pages/formats-tpc.md)
   * [TXB](pages/formats-txb.md)
-  - - - -
-  * # Generic File Format
+
+
+[File Formats - GFF]()
   * [ARE](pages/formats-are.md)
   * [DLG](pages/formats-dlg.md)
   * [GIT](pages/formats-git.md)
@@ -76,24 +77,28 @@
   * [UTS](pages/formats-uts.md)
   * [UTT](pages/formats-utt.md)
   * [UTW](pages/formats-utw.md)
-  - - - -
-  * # Archive/Container Formats
+
+
+[File Formats - Archive]()
   * [BIF](pages/formats-bif.md)
   * [ERF](pages/formats-erf.md)
   * [MOD](pages/formats-mod.md)
   * [RIM](pages/formats-rim.md)
   * [SAV](pages/formats-sav.md)
-  - - - -
-  * # Text Formats
+
+
+[File Formats - Text]()
   * [LYT](pages/formats-lyt.md)
   * [TXI](pages/formats-txi.md)
   * [VIS](pages/formats-vis.md)
-  - - - -
-  * # Model Formats
+
+
+[File Formats - Model]()
   * [MDL / MDX](pages/formats-mdl_mdx.md)
   * [WOK / PWK / DWK](pages/formats-wok_pwk_dwk.md)
-  - - - -
-  * # Script Formats
+
+
+[File Formats - Script]()
   * [NCS](pages/formats-ncs.md)
   * [NSS](pages/formats-nss.md)
 
