@@ -2,7 +2,7 @@ File Formats
 =======
 This is a brief overview of the various file formats in the game, with some information derived from Bioware's Neverwinter Nights documentation where indicated. Please refer to the individual pages for a given format for more detailed information.
 
- [2DA](pages/formats-2da.md)
+[2DA](pages/formats-2da.md)
 ---------
 A 2DA is a spreadsheet, used to store data for all aspects of the game. A representative example is appearance.2da, which defines all of the NPC and creature appearances - which models and textures are used under what circumstances, as well as things like walk speed and distance, etc.
 
@@ -10,19 +10,19 @@ Archives/Containers
 ---------
 There are two main archive formats used:
 
-#### [BIF + KEY](pages/formats-bif.md)
+[BIF + KEY](pages/formats-bif.md)
 _Bioware File Format Docs:_
 
 BioWare's games and tools make use of a very large number of files that are packed into a group of files having the .bif extension. The contents of the .bif files are described by one or more files having the .key extension
 
-#### [ERF](pages/formats-erf.md)
+[ERF](pages/formats-erf.md)
 _Bioware File Format Docs:_
 
 The Encapsulated Resource File (ERF) format is one of BioWare's methods of packing multiple files into a single file so that they may be treated as a single unit. In this regard, it is similar to .zip, .tar, or .rar. 
 
 See also [MOD](pages/formats-mod.md), [RIM](pages/formats-rim.md), and [SAV](pages/formats-sav.md).
 
- [BIK](pages/formats-bik.md)
+[BIK](pages/formats-bik.md)
 ---------
 Proprietary video format developed by RAD Game Tools, used for playing movie clips in video games on both PCs and console systems. Allows standard video to be highly compressed while optimizing video quality for the target platform.
 
@@ -55,13 +55,13 @@ Models ([MDL/MDX](pages/formats-mdl_mdx.md))
 ---------
 Models in Odysessy are stored as a pair or triplet of binary files (depending on the presence of a walkmesh).
 
-#### MDL
+MDL
 The MDL contains the mesh data for a model.
 
-#### MDX
+MDX
 The MDX conatins ancillary data for a model such as the skeletion/rig info, animations, etc.
 
-#### Walkmesh ([WOK / PWK / DWK](pages/formats-wok_pwk_dwk.md))
+Walkmesh ([WOK / PWK / DWK](pages/formats-wok_pwk_dwk.md))
 Defines collision and walkable/non-walkable areas for level geometry (WOK), placeables (PWK), and doors (DWK).
 
 Scripts ([NCS/NSS](pages/formats-ncs_nss.md))
@@ -70,27 +70,27 @@ NWScript is the scripting language used to control behavior of objects, items, N
 
 NWScript is based upon the C programming language and contains most of the C language syntax. NWScript does not support arrays, nor the Standard C library, such as printing to the screen, file I/O, nor system calls.
 
-#### NSS
+NSS
 A plain text source file which can be compiled into byte code (NCS) that the engine can execute.
 
-#### NCS
+NCS
 A binary file generated from script source (NSS) that the Odyssey engine can execute.
 
- [Textures](pages/formats-textures.md)
+[Textures](pages/formats-textures.md)
 ---------
-#### DDS (Direct Draw Surface)
+DDS (Direct Draw Surface)
 A DDS file is a [DXT](https://en.wikipedia.org/wiki/S3_Texture_Compression) raster image saved in the DirectDraw Surface (DDS) container. It can store compressed and uncompressed pixel formats and is often used for texturing video game unit models. The DDS format accepted by Odyssey is a non-standard one created by Bioware for the Aurora engine. It should be considered a legacy format and not used, since it offers no advantages over TPC.
 
-#### TGA (Targa)
+TGA (Targa)
 TGA refers to a raster graphics file format created by Truevision Inc. This format had been used as the native format for TARGA and VISTA graphic cards for IBM PC’s to support Truecolor display. While the engine supports direct use of TGAs, they are typically only used for uncompressed images, such as lightmaps (although in TSL this was changed to uncompressed TPCs).
 
-#### TPC/TXB
+TPC/TXB
 Images in the game are stored in the .TPC (named .TXB in the Xbox version) format, which is another non-standard container made by Bioware for DXT data. It also includes additional plain text rendering information embedded at the end of the file (see TXI).
 
-#### TXI
+TXI
 A plain text file with information for how to render an associated texture with the same name. If used with a TPC file, the embedded rendering information will be overridden.
 
- [TLK](pages/formats-tlk.md)
+[TLK](pages/formats-tlk.md)
 ---------
 _Bioware File Format Docs:_
 
