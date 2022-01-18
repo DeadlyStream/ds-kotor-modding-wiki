@@ -18,12 +18,15 @@
   -- Navigation
   -- (Read: http://dynalon.github.io/mdwiki/#!quickstart.md#Adding_a_navigation)
   -->
+  
 <!-- 
 [About](pages/about.md)
 [Download](pages/download.md)
   -->
+
 <!-- A more complex navigation example: ----------------------------------------
 
+[Menu 1]()
 
   * # SubMenu Heading 1
   * [SubMenu Item 1](pages/subitem1.md)
@@ -46,7 +49,9 @@
 
 [File Formats](pages/formats_overview.md)
 
-
+<!--	Listing all file formats is too long for a single menu, and doesn't makes sense have half a dozen
+		different menus for them, so for now just link to everything from the overview page.
+		
 [File Formats - Misc]()
 
   * [2DA](pages/formats-2da.md)
@@ -108,6 +113,8 @@
 
   * [NCS](pages/formats-ncs.md)
   * [NSS](pages/formats-nss.md)
+
+  -->
 
 [Tools]()
 
