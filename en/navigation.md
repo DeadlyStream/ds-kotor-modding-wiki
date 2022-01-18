@@ -48,6 +48,7 @@
 
 
 [File Formats - Misc]()
+
   * [2DA](pages/formats-2da.md)
   * [BIK](pages/formats-bik.md)
   * [LIP](pages/formats-lip.md)
@@ -55,6 +56,7 @@
 
 
 [File Formats - Image]()
+
   * [DDS](pages/formats-dds.md)
   * [TGA](pages/formats-tga.md)
   * [TPC](pages/formats-tpc.md)
@@ -62,6 +64,7 @@
 
 
 [File Formats - GFF]()
+
   * [ARE](pages/formats-are.md)
   * [DLG](pages/formats-dlg.md)
   * [GIT](pages/formats-git.md)
@@ -80,6 +83,7 @@
 
 
 [File Formats - Archive]()
+
   * [BIF](pages/formats-bif.md)
   * [ERF](pages/formats-erf.md)
   * [MOD](pages/formats-mod.md)
@@ -88,17 +92,20 @@
 
 
 [File Formats - Text]()
+
   * [LYT](pages/formats-lyt.md)
   * [TXI](pages/formats-txi.md)
   * [VIS](pages/formats-vis.md)
 
 
 [File Formats - Model]()
+
   * [MDL / MDX](pages/formats-mdl_mdx.md)
   * [WOK / PWK / DWK](pages/formats-wok_pwk_dwk.md)
 
 
 [File Formats - Script]()
+
   * [NCS](pages/formats-ncs.md)
   * [NSS](pages/formats-nss.md)
 
