@@ -1,2 +1,2 @@
-# ds-kotor-modding-wiki
-A KOTOR modding wiki
+# Deadly Stream KOTOR Modding Wiki
+A wiki for modding the Knights of the Old Republic games.
