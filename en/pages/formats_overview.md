@@ -3,6 +3,8 @@ File Formats
 
 This is a brief overview of the various file formats in the game, with some information derived from Bioware's Neverwinter Nights documentation where indicated. Please refer to the individual pages for a given format for more detailed information.
 
+- - - -
+
 2DA
 --------------------
 

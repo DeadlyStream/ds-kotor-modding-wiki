@@ -1,8 +1,9 @@
 Modding Tools
 ===========
 
-This is a list of the most commonly used/most important tools for modding KOTOR.
+This is a list of the most commonly used/most important tools for modding KOTOR. Please refer to the individual pages for a given format for more detailed information.
 
+- - - -
 
 ## General Links ##
 
@@ -16,9 +17,9 @@ This is a list of the most commonly used/most important tools for modding KOTOR.
 
 [Internet Archive](https://archive.org/), which you may need to access many links for modding KOTOR.
 
+- - - -
 
-
-## Admin ##
+## Asset Extraction and Management ##
 
 These are tools that let you extract and edit game files. They're needed for putting assets into the game, though generally they don't handle the creation of assets - that's covered in the sections below.
 
@@ -29,10 +30,6 @@ These are tools that let you extract and edit game files. They're needed for put
 The swiss-army knife of KOTOR modding, and the first thing any KOTOR modder needs. View and extract all game file types. Also includes a built-in GFF Editor, 2DA Editor, Script Editor and DLG Editor (K1 only) which are all serviceable. 
 
 
-
-### [KOTOR Toolset](https://deadlystream.com/files/file/767-kotor-toolset/) by Fair Strides ###
-
-Design levels for KOTOR. The Toolset has a map editor with a preview of the area you're editing and comes with built-in editors for associated objects like creatures, placeables, doors, and sounds.
 
 
 
@@ -70,7 +67,7 @@ Pack and unpack the ERF and RIM archive formats, including the related MOD, SAV,
 
 Edit quests and journal entries. JRLEdit has a user-friendly interface with a list of all quests in the game and a dropdown menu for each journal entry in each quest.
 
-
+- - - -
 
 ## Compatibility ##
 
@@ -88,7 +85,7 @@ Make your mod compatible with other mods. TSLPatcher can patch TLK, 2DA, SSF, an
 
 Text strings in the game have different language identifiers, and the game will only display text for the language it's running. The Language Converter will add the necessary language identifiers so that mods written in another language will have their text properly display for your game's language.
 
-
+- - - -
 
 ## Models ##
 
@@ -100,6 +97,7 @@ These are tools for editing 3D art assets - the realm of MDL, MDX, ASCII, and DW
 
 Convert model files from the binary MDL/MDX format to an ASCII format that modeling programs can read, and back again. The Renamer and Replacer functions can also make certain edits directly to binary MDL/MDX models without having to decompile.
 
+Note that the version of MDLOps available on DS is outdated. The most recent version is available from ndix UR's Github repo here.
 
 
 ### [MDLEdit](https://deadlystream.com/files/file/1150-mdledit/) by bead-v ###
@@ -118,7 +116,7 @@ Import and export ASCII models with 3ds Max and Gmax.
 
 Import and export ASCII models with Blender.
 
-
+- - - -
 
 ## Textures ##
 
@@ -154,7 +152,7 @@ Convert TGA files to DDS files that are KOTOR-readable.
 
 These scripts and plug-ins for Photoshop can make normal maps, cube maps, and mipmaps, and allow Photoshop to edit DDS files.
 
-
+- - - -
 
 ## Scripting ##
 
@@ -190,7 +188,7 @@ Write scripts for KOTOR. You can write them in any text editor, but the Scriptin
 
 User-defined language with autocompletion for Notepad++. Designed to make writing scripts for KOTOR a more user-friendly experience for those that do use a text editor.
 
-
+- - - -
 
 ## Dialogue & Cutscenes ##
 
@@ -250,7 +248,7 @@ This is the unedited English dialog.tlk file from Star Wars: Knights of the Old 
 
 This is the unedited English dialog.tlk file from Star Wars: Knights of the Old Republic II - The Sith Lords. Certain modding tools require this file in order to run, so if you don't have the game installed you can download the dialog.tlk file and point the tools to it so they'll run.
 
-
+- - - -
 
 ## Audio & Video ##
 
@@ -280,13 +278,13 @@ Convert soundsets from SSF to XML format and back again.
 
 Play and convert the game movies. Pre-rendered cinematics are saved in the proprietary BIK format, so if you want to view or edit them outside the game, you'll have to convert to a more common format first. Bink Video can convert from BIK to a variety of video formats, and can also convert a variety of video formats to BIK if you want to add a movie to the game.
 
-
+- - - -
 
 ## xoreos ##
 
 [xoreos](https://xoreos.org/) is an ongoing project to reimplement BioWare's Aurora engine and all its derivatives, including the KOTOR Odyssey engine. A number of handy tools have been developed for the project. Many additional tools may be found in their [tools repository](https://github.com/xoreos/xoreos-tools]xoreos).
 
-
+- - - -
 
 ## And the Rest ##
 
@@ -316,12 +314,16 @@ Get the coordinates of your current location, since the whereami cheat isn't hel
 
 Change party members whenever you want, open and close doors, play animations, delete objects, warp, teleport, and do various other things that come in handy for developing and testing mods.
 
-
+- - - -
 
 ## Legacy Tools ##
 
 These are tools that have been superseded by other tools on the list. Their functionality was once useful, but is either built into newer tools or isn't needed anymore thanks to updates. They're listed here for legacy support to prevent confusion. Older tutorials will no doubt mention many of these tools.
 
+
+### [KOTOR Toolset](https://deadlystream.com/files/file/767-kotor-toolset/) by Fair Strides ###
+
+Design levels for KOTOR. The Toolset has a map editor with a preview of the area you're editing and comes with built-in editors for associated objects like creatures, placeables, doors, and sounds.
 
 
 ### [NWMax](https://neverwintervault.org/project/nwn1/other/tool/nwmax-8) by Joco ###
