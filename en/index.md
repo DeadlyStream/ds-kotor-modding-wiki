@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="500" height="271" src="https://raw.githubusercontent.com/DeadlyStream/ds-kotor-modding-wiki/main/en/pages/uploads/images/ds_wiki_med_tp.png">
+  <a><img src="https://raw.githubusercontent.com/DeadlyStream/ds-kotor-modding-wiki/main/en/pages/uploads/images/ds_wiki_med_tp.png" /></a>
 </p>
 
 
