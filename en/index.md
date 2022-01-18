@@ -1,13 +1,8 @@
-# It works! ;-)
+<p align="center">
+  <img width="500" height="271" src="https://raw.githubusercontent.com/DeadlyStream/ds-kotor-modding-wiki/main/en/pages/uploads/images/ds_wiki_med_tp.png">
+</p>
 
 
-## Section 1
+Welcome to the KOTOR Modding Wiki, a repository for various information and tutorials pertaining to creating mods for Knights of the Old Republic.
 
-Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Cras mattis consectetur purus sit amet fermentum. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Sed posuere consectetur est at lobortis.
-
-
-## Section 2
-
-Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec ullamcorper nulla non metus auctor fringilla. Cras mattis consectetur purus sit amet fermentum. Donec ullamcorper nulla non metus auctor fringilla. Cras justo odio, dapibus ac facilisis in, egestas eget quam.
-
-Vestibulum id ligula porta felis euismod semper. Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.
+Please check the categories in the top navigation bar to find what you are looking for.
