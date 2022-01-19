@@ -32,6 +32,8 @@ Download [here](https://deadlystream.com/files/file/499-erfedit/).
 
 ## File Editors
 
+Tools for editing various file formats.
+
 ###  K-GFF by tk102
 
 Edit files saved in BioWare's Generic File Format. This covers a broad range of game files - everything from characters to stores to triggers to journal entries. This is one of the primary tools used in KOTOR modding.
@@ -112,7 +114,7 @@ More info [here](https://deadlystream.com/topic/5092-animatedcameradatacreator/)
 
 - - - -
 
-## Installation/Compatibility
+## Installation / Compatibility
 
 These tools help ensure that mods will work for other people with different setups.
 
@@ -130,7 +132,7 @@ Download [here](https://deadlystream.com/files/file/718-language-converter-for-d
 
 - - - -
 
-## Model Editing/Creation
+## Model Editing / Creation
 
 These are the tools for editing 3D art assets.
 
