@@ -90,13 +90,13 @@ These are the tools for editing 3D art assets.
 
 ### MDLEdit by bead-v
 
-Convert model files from the binary MDL/MDX format to an ASCII format that KMax can read, and back again. MDLEdit is an alternative to MDLOps. Both functionally do the same thing, but perform their calculations differently and have different interfaces. MDLEdit is also able to make certain edits to models in the GUI, like changing texture names, enabling bump maps, and editing controller values for things like alpha and self illumination, without needing to export/edit an ASCII.
+Convert model files from the binary MDL/MDX format to an ASCII format that KMax can read, and back again. MDLEdit is a more modern alternative to MDLOps. Both functionally do the same thing, but perform their calculations differently and have different interfaces. MDLEdit is also able to make certain edits to models in the GUI, like changing texture names, enabling bump maps, and editing controller values for things like alpha and self illumination, without needing to export/edit an ASCII.
 
 Download [here](https://deadlystream.com/topic/5735-mdledit-bug-reporting-thread/?do=findComment&comment=73932) (N.B. - linked beta version is the latest).
 
 ### MDLOps by Chuck Chargin Jr. (updates by Torlack, JdNoa, Fair Strides, VarsityPuppet, and ndix UR)
 
-Convert model files from the binary MDL/MDX format to an ASCII format that modeling programs can read, and back again. The Renamer and Replacer functions can also make certain edits directly to binary MDL/MDX models without having to decompile.
+Convert model files from the binary MDL/MDX format to an ASCII format that KMax can read, and back again. Updated to be comparable in functionality to MDLEdit.
 
 Download [here](https://github.com/ndixUR/mdlops/releases) (N.B. - the version of MDLOps available on DS is outdated. The most recent version is available from ndix UR's Github repo linked here).
 
