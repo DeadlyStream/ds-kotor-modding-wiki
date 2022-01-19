@@ -1,6 +1,6 @@
 # Modding Tools
 
-This is a list of the most commonly used/most important tools for modding KOTOR.
+This is a list of the most commonly used / most important tools for modding KOTOR.
 
 - - - -
 
@@ -12,21 +12,31 @@ This is a list of the most commonly used/most important tools for modding KOTOR.
 
 - - - -
 
-## Asset Extraction and Management
+## Asset Extraction / Management
 
-These are tools that let you extract and edit game files. They're needed for putting assets into the game, though generally they don't handle the creation of assets - that's covered in the sections below.
+These are tools that let you extract and repackage game files.
 
 ### KOTOR Tool by Fred Tetra
 
-The KOTOR can opener. View and extract all game file types. Also includes a built-in GFF Editor, 2DA Editor, Script Editor and DLG Editor (K1 only) which are all serviceable but it is ***strongly*** advised to avoid their use.
+The KOTOR can opener. View and extract all game file types. Also includes a built-in GFF Editor, 2DA Editor, Script Editor and DLG Editor (K1 only) which are all serviceable but it is ***strongly*** advised to avoid their use in favour of the dedicated tools listed below. KTool replaces TLK string references in any file it edits with local strings, which is *extremely* bad for compatibility purposes.
 
 Download [here](https://deadlystream.com/topic/1949-downloadkotor-tool/).
 
+### ERFEdit by stoffe (updated by Fair Strides)
+
+Pack and unpack the ERF and RIM archive formats, including the related MOD, SAV, and HAK formats. ERFEdit can extract resources from any of these files or create them. If you're editing an area or creating your own, you'll want to use ERFEdit to package all its contents in a .mod file for release.
+
+Download [here](https://deadlystream.com/files/file/499-erfedit/).
+
+- - - -
+
+## File Editors
+
 ###  K-GFF by tk102
 
-Edit files saved with BioWare's Generic File Format. This covers a broad range of game files - everything from characters to stores to triggers to journal entries. ARE, DLG, GIT, GUI, IFO, JRL, PTH, RES, UTC, UTD, UTE, UTM, UTI, UTP, UTT, UTS, UTW are all examples of GFF files.
+Edit files saved in BioWare's Generic File Format. This covers a broad range of game files - everything from characters to stores to triggers to journal entries. This is one of the primary tools used in KOTOR modding.
 
-Download [here](https://web.archive.org/web/20160405094841/http://starwarsknights.com/mtools/kgff_131.zip)  (Wayback Machine archive).
+Download [here](https://web.archive.org/web/20160405094841/http://starwarsknights.com/mtools/kgff_131.zip) (Wayback Machine archive).
 
 ### gff2xml / xml2gff by Xoreos
 
@@ -52,17 +62,53 @@ Download [Xoreos Tools](https://github.com/xoreos/xoreos-tools).
 
 Download [here](https://deadlystream.com/files/file/1335-2da-editor-alpha/).
 
-### ERFEdit by stoffe (updated by Fair Strides)
-
-Pack and unpack the ERF and RIM archive formats, including the related MOD, SAV, and HAK formats. ERFEdit can extract resources from any of these files or create them. If you're editing an area or creating your own, you'll want to use ERFEdit to package all its contents in a .mod file for release.
-
-Download [here](https://deadlystream.com/files/file/499-erfedit/).
-
 ### JRLEdit by Fair Strides
 
 Edit quests and journal entries. JRLEdit has a user-friendly interface with a list of all quests in the game and a dropdown menu for each journal entry in each quest.
 
 Download [here](https://deadlystream.com/files/file/473-jrledit-journal-editing-tool/).
+
+- - - -
+
+## Dialogue & Cutscenes
+
+Whenever you talk to an NPC, use a computer terminal, or see any in-engine cutscene, a DLG file is at work. This section of tools covers editing the DLG format itself and other related elements, such as cameras and lip syncing.
+
+### DLGEditor by tk102
+
+Edit the DLG format used for dialogues and cutscenes. DLGEditor can edit any dialogue file from either game. This is the primary tool used when working with conversations/cutscenes.
+
+Download [here](https://web.archive.org/web/20160405045305/http://starwarsknights.com/mtools/dlgeditor_232.zip) (Wayback Machine archive).
+
+### tlk2xml / xml2tlk by Xoreos
+
+Convert dialog.tlk to XML format and back again.
+
+Download [Xoreos Tools](https://github.com/xoreos/xoreos-tools).
+
+### CSLU Toolkit by Center for Spoken Language Understanding (license-free version courtesy of Jenko)
+
+Generates PHN files from audio tracks. Used in conjunction with LipSynchEditor to produce LIP files.
+
+Download [here](https://deadlystream.com/files/file/1414-cslu-toolkit-no-online-licensing/).
+
+### LipSynchEditor by JdNoa
+
+Edit LIP files, create new ones from scratch, and import PHN files to convert them to LIP. Requires Java.
+
+Download [here](https://web.archive.org/web/20160405095233/http://starwarsknights.com/mtools/LipSynchEditor.zip) (Wayback Machine archive).
+
+### AniCam by JdNoa
+
+Create animated cameras for cutscenes. AniCam's interface is a spreadsheet - you enter the coordinates for the camera at each specific time and then AniCam will create a camera that moves between those points. It has an interpolation option to improve the camera path.
+
+Download [here](https://web.archive.org/web/20160405040201/http://starwarsknights.com/mtools/AniCamB3.zip) (Wayback Machine archive).
+
+### AnimatedCameraDataCreator by bead-v
+
+Create animated cameras for cutscenes, in a different way. AC⚡DC uses fancy Bézier curves that allow for smooth camera paths. It uses a graph interface, so you get somewhat of a preview of your camera path.
+
+More info [here](https://deadlystream.com/topic/5092-animatedcameradatacreator/) (appears to be unavilable for download).
 
 - - - -
 
@@ -112,11 +158,17 @@ Import and export models with Blender. The latest incarnation eschews the need f
 
 Download [here](https://deadlystream.com/files/file/1853-kotorblender-for-blender-293/).
 
+### KOTOR GIT Data Output for Max by DarthParametric
+
+A small KOTOR-specific collection of utility Maxscripts for use with Max/GMax. Allows conversion of various data, particularly angles/rotations, related to module GITs. Both importing that data into Max, and preparing for export into a GIT.
+
+Project repository [here](https://github.com/DarthParametric/KOTOR_GIT_Data_Output_for_Max).
+
 - - - -
 
-## Textures
+## Texture Creation / Conversion
 
-These are tools for editing 2D art assets - the realm of TPC, TGA, TXI, and DDS files
+These are tools are for creating / converting 2D the game's art assets.
 
 ### tga2tpc by ndix UR
 
@@ -142,8 +194,7 @@ Download [Xoreos Tools](https://github.com/xoreos/xoreos-tools).
 
 ## Scripting ##
 
-These are tools that let you work with the game's programming language. If you want to spawn characters or other objects, give the player a reward for completing a quest, or create a new Force power, you'll need a script. KOTOR uses its own programming language, NWScript, which is very similar to C# and Java.
-
+These are tools that let you work with the game's programming language. If you want to spawn characters or other objects, give the player a reward for completing a quest, or create a new Force power, you'll need a script. KOTOR uses its own programming language, NWScript, which is derived from C.
 
 ### NWNNSSComp by Torlack, stoffe, and tk102
 
@@ -178,48 +229,6 @@ Download [here](https://deadlystream.com/files/file/1395-odyssey/).
 Write scripts for KOTOR. You can write them in any text editor, but the Scripting Tool has a more script-oriented interface.
 
 Download [here](https://deadlystream.com/files/file/191-kotor-scripting-tool/).
-
-- - - -
-
-## Dialogue & Cutscenes
-
-Whenever you talk to an NPC, use a computer terminal, or see any in-engine cutscene, a DLG file is at work. This section of tools covers editing the DLG format itself and other related elements, such as cameras and lip syncing.
-
-### DLGEditor by tk102
-
-Edit the DLG format used for dialogues and cutscenes. DLGEditor can edit any dialogue file from either game. This is the primary tool used when working with conversations/cutscenes.
-
-Download [here](https://web.archive.org/web/20160405045305/http://starwarsknights.com/mtools/dlgeditor_232.zip) (Wayback Machine archive).
-
-### tlk2xml / xml2tlk by Xoreos
-
-Convert dialog.tlk to XML format and back again.
-
-Download [Xoreos Tools](https://github.com/xoreos/xoreos-tools).
-
-### CSLU Toolkit by Center for Spoken Language Understanding (license-free version courtesy of Jenko)
-
-Generates PHN files from audio tracks. Used in conjunction with LipSynchEditor to produce LIP files.
-
-Download [here](https://deadlystream.com/files/file/1414-cslu-toolkit-no-online-licensing/).
-
-### LipSynchEditor by JdNoa
-
-Edit LIP files, create new ones from scratch, and import PHN files to convert them to LIP. Requires Java.
-
-Download [here](https://web.archive.org/web/20160405095233/http://starwarsknights.com/mtools/LipSynchEditor.zip) (Wayback Machine archive).
-
-### AniCam by JdNoa
-
-Create animated cameras for cutscenes. AniCam's interface is a spreadsheet - you enter the coordinates for the camera at each specific time and then AniCam will create a camera that moves between those points. It has an interpolation option to improve the camera path.
-
-Download [here](https://web.archive.org/web/20160405040201/http://starwarsknights.com/mtools/AniCamB3.zip) (Wayback Machine archive).
-
-### AnimatedCameraDataCreator by bead-v
-
-Create animated cameras for cutscenes, in a different way. AC⚡DC uses fancy Bézier curves that allow for smooth camera paths. It uses a graph interface, so you get somewhat of a preview of your camera path.
-
-More info [here](https://deadlystream.com/topic/5092-animatedcameradatacreator/) (appears to be unavilable for download).
 
 - - - -
 
@@ -259,9 +268,9 @@ Download [here](https://web.archive.org/web/20070703062308/http://www.radgametoo
 
 - - - -
 
-## General Utilities
+## Helpful Utilities
 
-Miscellaneous tools that come in handy.
+Miscellaneous tools that come in handy when creating and testing mods.
 
 ### K1 Utility Armbands by Star Admiral
 
