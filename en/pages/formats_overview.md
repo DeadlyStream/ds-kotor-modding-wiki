@@ -19,14 +19,14 @@ There are two main archive formats used:
 ### BIF + KEY
 _Bioware File Format Docs:_
 
-BioWare's games and tools make use of a very large number of files that are packed into a group of files having the .bif extension. The contents of the .bif files are described by one or more files having the .key extension
+> BioWare's games and tools make use of a very large number of files that are packed into a group of files having the .bif extension. The contents of the .bif files are described by one or more files having the .key extension
 
 For more information, refer to the [BIF](pages/formats-bif.md) page.
 
 ### ERF
 _Bioware File Format Docs:_
 
-The Encapsulated Resource File (ERF) format is one of BioWare's methods of packing multiple files into a single file so that they may be treated as a single unit. In this regard, it is similar to .zip, .tar, or .rar. 
+> The Encapsulated Resource File (ERF) format is one of BioWare's methods of packing multiple files into a single file so that they may be treated as a single unit. In this regard, it is similar to .zip, .tar, or .rar. 
 
 For more information, refer to the [ERF](pages/formats-erf.md), [MOD](pages/formats-mod.md), [RIM](pages/formats-rim.md), and [SAV](pages/formats-sav.md) pages.
 
@@ -44,7 +44,7 @@ For more information, refer to the [BIK](pages/formats-bik.md) page.
 
 _Bioware File Format Docs:_
 
-The Generic File Format (GFF) is an all-purpose generic format used to store data in BioWare games. It is designed to make it easy to add or remove fields and data structures while still maintaining backward and forward compatibility in reading old or new versions of a file format.
+> The Generic File Format (GFF) is an all-purpose generic format used to store data in BioWare games. It is designed to make it easy to add or remove fields and data structures while still maintaining backward and forward compatibility in reading old or new versions of a file format.
 
 GFFs can be split into the following categories (for more information, refer to the individual format pages):
 
@@ -135,9 +135,9 @@ For more information, refer to the [textures](pages/formats-textures.md) page.
 
 _Bioware File Format Docs:_
 
-BioWare's games are released in multiple languages, so it is necessary for game text to be different depending on the language of the user.
+> BioWare's games are released in multiple languages, so it is necessary for game text to be different depending on the language of the user.
 
-The talk table file, called dialog.tlk (and dialogf.tlk, containing feminine strings for certain languages), contains all the strings that the game will display to the user and which therefore need to be translated. Keeping all user-visible strings in the talk table makes it easier to produce multiple language versions of the game, because all the other game data files (with the exception of voice-over sound files) can remain the same between all language versions of the game. Using the talk table also has the advantage of reducing the amount of disk space required to store the game, since text for only one language is included.
+> The talk table file, called dialog.tlk (and dialogf.tlk, containing feminine strings for certain languages), contains all the strings that the game will display to the user and which therefore need to be translated. Keeping all user-visible strings in the talk table makes it easier to produce multiple language versions of the game, because all the other game data files (with the exception of voice-over sound files) can remain the same between all language versions of the game. Using the talk table also has the advantage of reducing the amount of disk space required to store the game, since text for only one language is included.
 
 For more information, refer to the [TLK](pages/formats-tlk.md) page.
 
