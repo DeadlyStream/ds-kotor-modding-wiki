@@ -259,42 +259,6 @@ Download [here](https://web.archive.org/web/20070703062308/http://www.radgametoo
 
 - - - -
 
-## Alternative Game Engines
-
-Not strictly tools, but these may become more relevant to mod creators in the future as the various projects mature and people start using them en masse.
-
-### reone by seedhartha
-
-A C++ reimplementation of the Odyssey engine. Arguably the most advanced and the most promising of the various engine projects.
-
-Project repository [here](https://github.com/seedhartha/reone).
-
-### Xoreos
-
-A C++ reimplemention of BioWare's Aurora engine and all its derivatives, including KOTOR's Odyssey engine. Of primary interest to modders is the Xoreos Tools side-project, many of which have been mentioned above.
-
-Project repository [Xoreos](https://github.com/xoreos/xoreos)
-
-## KotOR.JS by Blue
-
-A JavaScript reimplementation of the Odyssey engine, also including KotOR Forge, a modding suite.
-
-Project repository [here](https://github.com/KobaltBlu/KotOR.js).
-
-## Northern Lights by Lachjames
-
-A Unity/C# reimplementation of the Odyssey engine, forked from KotOR-Unity and heavily modified. Also includes the KotOR Level Editor (KLE).
-
-Project repository [here](https://github.com/lachjames/NorthernLights).
-
-## KotOR-Unity by rwc4301
-
-A conversion layer between the Odyssey engine and Unity. This project appears to be defunct.
-
-Project repository [here](https://github.com/rwc4301/KotOR-Unity).
-
-- - - -
-
 ## General Utilities
 
 Miscellaneous tools that come in handy.
@@ -328,6 +292,42 @@ Download [here](https://deadlystream.com/files/file/503-kotor-savegame-editor/).
 An OpenGL hijack that is primarily used for the freecam plugin, which allows unrestricted camera movement independent of the selected character (although it has rendering issues). Can be useful for capturing close-up screenshots.
 
 Download preconfigured version [here](https://deadlystream.com/files/file/860-glintercept-freecam-in-kotor/) (Original repository [here](https://github.com/dtrebilco/glintercept)).
+
+- - - -
+
+## Alternative Game Engines
+
+Not strictly tools, but these may become more relevant to mod creators in the future as the various projects mature and people start using them en masse.
+
+### reone by seedhartha
+
+A C++ reimplementation of the Odyssey engine. Arguably the most advanced and the most promising of the various engine projects.
+
+Project repository [here](https://github.com/seedhartha/reone).
+
+### Xoreos
+
+A C++ reimplemention of BioWare's Aurora engine and all its derivatives, including KOTOR's Odyssey engine. Of primary interest to modders is the Xoreos Tools side-project, many of which have been mentioned above.
+
+Project repository [Xoreos](https://github.com/xoreos/xoreos)
+
+### KotOR.JS by Blue
+
+A JavaScript reimplementation of the Odyssey engine, also including KotOR Forge, a modding suite.
+
+Project repository [here](https://github.com/KobaltBlu/KotOR.js).
+
+### Northern Lights by Lachjames
+
+A Unity/C# reimplementation of the Odyssey engine, forked from KotOR-Unity and heavily modified. Also includes the KotOR Level Editor (KLE).
+
+Project repository [here](https://github.com/lachjames/NorthernLights).
+
+### KotOR-Unity by rwc4301
+
+A conversion layer between the Odyssey engine and Unity. This project appears to be defunct.
+
+Project repository [here](https://github.com/rwc4301/KotOR-Unity).
 
 - - - -
 
