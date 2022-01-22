@@ -344,13 +344,20 @@ Project repository [here](https://github.com/rwc4301/KotOR-Unity).
 
 ## Legacy Tools
 
-These are tools that have been superseded by other tools on the list and/or no longer function correctly. Their functionality was once useful, but is either built into newer tools or isn't needed anymore thanks to updates. They're listed here for legacy support to prevent confusion. Older tutorials will no doubt mention many of these tools.
+These are tools that have been superseded by other tools on the list and/or no longer function correctly. Their functionality was once useful, but is either built into newer tools or isn't needed anymore thanks to updates. They're listed here for legacy support to prevent confusion. Older tutorials may mention some of these tools.
 
 ### KOTOR Toolset by Fair Strides
 
-The Toolset has a map editor with a preview of the area you're editing and comes with built-in editors for associated objects like creatures, placeables, doors, and sounds. Still retains some utility, but does not run on Windows 10/11.
+The Toolset has a map editor with a preview of the area you're editing and comes with built-in editors for associated objects like creatures, placeables, doors, and sounds. Still retains some utility, although it does not run on Windows 10/11.
 
 Download [here](https://deadlystream.com/files/file/767-kotor-toolset/).
+
+
+### ModHex by Fair Strides
+
+Clones the content of a module (models, textures, lightmaps, LYT, VIS, ARE, GIT, IFO) and renames them for use as a new module. Mostly unneeded with the advent of MDLEdit/KMax and KBlender that can not only properly handle vanilla level models but also create entirely custom ones, but it still retains some utility if creating a reskinned duplicate of an existing module is the specific goal.
+
+Download [here](https://deadlystream.com/files/file/518-modhex/).
 
 ### NWMax by Joco
 
