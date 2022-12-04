@@ -22,6 +22,12 @@ The KOTOR can opener. View and extract all game file types. Also includes a buil
 
 Download [here](https://deadlystream.com/topic/1949-downloadkotor-tool/).
 
+### Holocron Toolset by Cortisol
+
+View and extract all game file types. Also includes various built-in editors, including Module Designer, Journal Editor, GFF Editor, 2DA Editor, Script Editor, DLG Editor and TLK Editor.
+
+Download [here](https://deadlystream.com/files/file/1982-holocron-toolset/).
+
 ### ERFEdit by stoffe (updated by Fair Strides)
 
 Pack and unpack the ERF and RIM archive formats, including the related MOD, SAV, and HAK formats. ERFEdit can extract resources from any of these files or create them. If you're editing an area or creating your own, you'll want to use ERFEdit to package all its contents in a .mod file for release.
